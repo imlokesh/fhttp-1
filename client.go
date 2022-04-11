@@ -11,7 +11,7 @@ package http
 
 import (
 	"context"
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/imlokesh/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"

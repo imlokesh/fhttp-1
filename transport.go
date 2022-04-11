@@ -14,7 +14,7 @@ import (
 
 	"container/list"
 	"context"
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/imlokesh/utls"
 	"errors"
 	"fmt"
 	"io"

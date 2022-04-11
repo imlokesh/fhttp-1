@@ -7,7 +7,7 @@
 package http2
 
 import (
-	tls "github.com/Carcraftz/utls"
+	tls "github.com/imlokesh/utls"
 	"sync"
 
 	http "github.com/Carcraftz/fhttp"
