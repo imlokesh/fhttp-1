@@ -28,10 +28,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptrace"
+	http "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/httptrace"
 
-	"github.com/Carcraftz/fhttp/http2/hpack"
+	"github.com/imlokesh/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

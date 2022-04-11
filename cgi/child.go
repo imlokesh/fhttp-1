@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/imlokesh/fhttp"
 )
 
 // Request returns the HTTP request as represented in the current

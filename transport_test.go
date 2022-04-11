@@ -38,12 +38,12 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httptrace"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/nettrace"
+	. "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/httptest"
+	"github.com/imlokesh/fhttp/httptrace"
+	"github.com/imlokesh/fhttp/httputil"
+	"github.com/imlokesh/fhttp/internal"
+	"github.com/imlokesh/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

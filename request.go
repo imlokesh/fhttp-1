@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Carcraftz/fhttp/httptrace"
+	"github.com/imlokesh/fhttp/httptrace"
 
 	"golang.org/x/net/idna"
 )

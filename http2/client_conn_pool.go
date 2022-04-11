@@ -10,7 +10,7 @@ import (
 	tls "github.com/imlokesh/utls"
 	"sync"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/imlokesh/fhttp"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

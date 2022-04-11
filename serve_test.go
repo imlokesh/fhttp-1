@@ -36,11 +36,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/testenv"
+	. "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/httptest"
+	"github.com/imlokesh/fhttp/httputil"
+	"github.com/imlokesh/fhttp/internal"
+	"github.com/imlokesh/fhttp/internal/testenv"
 )
 
 type dummyAddr string

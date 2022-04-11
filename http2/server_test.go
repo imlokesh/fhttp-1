@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
+	http "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/httptest"
 
 	"golang.org/x/net/http2/hpack"
 )

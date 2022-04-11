@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/cookiejar"
-	"github.com/Carcraftz/fhttp/httptest"
+	http "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/cookiejar"
+	"github.com/imlokesh/fhttp/httptest"
 )
 
 func ExampleNew() {

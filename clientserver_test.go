@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
+	. "github.com/imlokesh/fhttp"
+	"github.com/imlokesh/fhttp/httptest"
+	"github.com/imlokesh/fhttp/httputil"
 )
 
 type clientServerTest struct {
