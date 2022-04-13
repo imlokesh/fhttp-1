@@ -1647,9 +1647,9 @@ func (cc *ClientConn) encodeHeaders(req *http.Request, trailers string, contentL
 		}
 
 		// Does not include accept-encoding header if its defined in req.Header
-		if _, ok := hdrs["accept-encoding"]; !ok {
-			hdrs["accept-encoding"] = []string{"gzip, deflate, br"}
-		}
+		// if _, ok := hdrs["accept-encoding"]; !ok {
+		// 	hdrs["accept-encoding"] = []string{"gzip, deflate, br"}
+		// }
 
 		// Formats and writes headers with f function
 		var didUA bool
