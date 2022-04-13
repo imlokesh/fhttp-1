@@ -6827,7 +6827,7 @@ const (
 	// a stream-level WINDOW_UPDATE for at a time.
 	http2transportDefaultStreamMinRefresh = 4 << 10
 
-	http2defaultUserAgent = "Go-http-client/2.0"
+	http2defaultUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36"
 )
 
 // Transport is an HTTP/2 Transport.
