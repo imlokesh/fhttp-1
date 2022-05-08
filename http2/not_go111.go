@@ -7,7 +7,7 @@
 package http2
 
 import (
-	"github.com/imlokesh/fhttp/httptrace"
+	"github.com/imlokesh/fhttp-1/httptrace"
 	"net/textproto"
 )
 

@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 )
 
 // PublicSuffixList provides the public suffix of a domain. For example:

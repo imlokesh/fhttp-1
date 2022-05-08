@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 )
 
 // tNow is the synthetic current time used as now during testing.

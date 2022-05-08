@@ -11,7 +11,7 @@ import (
 	"bytes"
 	"context"
 	"crypto/rand"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"errors"
 	"fmt"
 	"io"
@@ -28,10 +28,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptrace"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptrace"
 
-	"github.com/imlokesh/fhttp/http2/hpack"
+	"github.com/imlokesh/fhttp-1/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

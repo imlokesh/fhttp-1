@@ -9,7 +9,7 @@ package http
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"errors"
 	"fmt"
 	"io"

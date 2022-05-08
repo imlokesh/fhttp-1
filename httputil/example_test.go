@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptest"
-	"github.com/imlokesh/fhttp/httputil"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptest"
+	"github.com/imlokesh/fhttp-1/httputil"
 )
 
 func ExampleDumpRequest() {

@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/imlokesh/fhttp/httptrace"
+	"github.com/imlokesh/fhttp-1/httptrace"
 
 	"golang.org/x/net/idna"
 )

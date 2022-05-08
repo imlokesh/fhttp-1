@@ -15,7 +15,7 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
@@ -38,12 +38,12 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptest"
-	"github.com/imlokesh/fhttp/httptrace"
-	"github.com/imlokesh/fhttp/httputil"
-	"github.com/imlokesh/fhttp/internal"
-	"github.com/imlokesh/fhttp/internal/nettrace"
+	. "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptest"
+	"github.com/imlokesh/fhttp-1/httptrace"
+	"github.com/imlokesh/fhttp-1/httputil"
+	"github.com/imlokesh/fhttp-1/internal"
+	"github.com/imlokesh/fhttp-1/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

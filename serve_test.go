@@ -12,7 +12,7 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -36,11 +36,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptest"
-	"github.com/imlokesh/fhttp/httputil"
-	"github.com/imlokesh/fhttp/internal"
-	"github.com/imlokesh/fhttp/internal/testenv"
+	. "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptest"
+	"github.com/imlokesh/fhttp-1/httputil"
+	"github.com/imlokesh/fhttp-1/internal"
+	"github.com/imlokesh/fhttp-1/internal/testenv"
 )
 
 type dummyAddr string

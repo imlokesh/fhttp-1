@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptest"
-	"github.com/imlokesh/fhttp/internal/testenv"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptest"
+	"github.com/imlokesh/fhttp-1/internal/testenv"
 )
 
 // This test is a CGI host (testing host.go) that runs its own binary

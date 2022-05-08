@@ -74,8 +74,8 @@ import (
 	"strings"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/internal/profile"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/internal/profile"
 )
 
 func init() {

@@ -14,7 +14,7 @@ import (
 
 	"container/list"
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"errors"
 	"fmt"
 	"io"
@@ -29,7 +29,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/imlokesh/fhttp/httptrace"
+	"github.com/imlokesh/fhttp-1/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

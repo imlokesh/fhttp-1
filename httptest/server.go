@@ -7,7 +7,7 @@
 package httptest
 
 import (
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"crypto/x509"
 	"flag"
 	"fmt"
@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/internal"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/internal"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the

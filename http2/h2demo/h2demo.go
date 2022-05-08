@@ -7,7 +7,7 @@ package main
 import (
 	"bytes"
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"flag"
 	"fmt"
 	"hash/crc32"
@@ -27,7 +27,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/imlokesh/fhttp/http2"
+	"github.com/imlokesh/fhttp-1/http2"
 	"go4.org/syncutil/singleflight"
 	"golang.org/x/build/autocertcache"
 	"golang.org/x/crypto/acme/autocert"

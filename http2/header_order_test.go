@@ -2,8 +2,8 @@ package http2
 
 import (
 	"bytes"
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptrace"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptrace"
 	"log"
 	"strings"
 	"testing"

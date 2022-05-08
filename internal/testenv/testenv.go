@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/imlokesh/fhttp/internal/cfg"
+	"github.com/imlokesh/fhttp-1/internal/cfg"
 )
 
 // Builder reports the name of the builder running this test

@@ -8,11 +8,11 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"io"
 	"strings"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 )
 
 // NewRequest returns a new incoming server Request, suitable

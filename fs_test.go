@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/httptest"
+	. "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/httptest"
 )
 
 const (

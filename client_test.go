@@ -9,7 +9,7 @@ package http_test
 import (
 	"bytes"
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/cookiejar"
-	"github.com/imlokesh/fhttp/httptest"
+	. "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/cookiejar"
+	"github.com/imlokesh/fhttp-1/httptest"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

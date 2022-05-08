@@ -22,7 +22,7 @@ package main
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"errors"
 	"flag"
 	"fmt"
@@ -35,8 +35,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/imlokesh/fhttp/http2"
-	"github.com/imlokesh/fhttp/http2/hpack"
+	"github.com/imlokesh/fhttp-1/http2"
+	"github.com/imlokesh/fhttp-1/http2/hpack"
 	"golang.org/x/term"
 )
 

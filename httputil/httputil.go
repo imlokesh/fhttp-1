@@ -9,7 +9,7 @@ package httputil
 import (
 	"io"
 
-	"github.com/imlokesh/fhttp/internal"
+	"github.com/imlokesh/fhttp-1/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

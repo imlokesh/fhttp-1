@@ -7,10 +7,10 @@
 package http2
 
 import (
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"sync"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

@@ -9,7 +9,7 @@ package cgi
 
 import (
 	"bufio"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"errors"
 	"fmt"
 	"io"
@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 )
 
 // Request returns the HTTP request as represented in the current

@@ -11,7 +11,7 @@ package http
 
 import (
 	"context"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"encoding/base64"
 	"errors"
 	"fmt"

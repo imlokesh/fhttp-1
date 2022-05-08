@@ -18,7 +18,7 @@ package http2
 
 import (
 	"bufio"
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"fmt"
 	"io"
 	"os"
@@ -27,7 +27,7 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/imlokesh/fhttp"
+	http "github.com/imlokesh/fhttp-1"
 
 	"golang.org/x/net/http/httpguts"
 )

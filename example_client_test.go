@@ -1,7 +1,7 @@
 package http_test
 
 import (
-	tls "github.com/imlokesh/utls"
+	tls "github.com/imlokesh/utls-1"
 	"crypto/x509"
 	"encoding/json"
 	"flag"
@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/imlokesh/fhttp"
-	"github.com/imlokesh/fhttp/http2"
+	http "github.com/imlokesh/fhttp-1"
+	"github.com/imlokesh/fhttp-1/http2"
 )
 
 // Basic http test with Header Order + enable push
